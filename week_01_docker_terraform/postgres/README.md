@@ -10,6 +10,9 @@ docker run -it --rm \
 Opening a new git bash terminal we run this command to connect to the database:
 uv run pgcli -h localhost -p 5432 -u root -d ny_taxi
 
+Run jupyter from bash terminal:
+uv run jupyter notebook
+
 Basic SQL commands ran:
 -- List tables
 \dt
